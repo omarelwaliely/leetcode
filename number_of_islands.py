@@ -9,7 +9,7 @@ class Solution(object):
                 currR, currC = q.popleft()
                 possibleMoves = [[currR,currC+1],[currR,currC-1], [currR+1,currC], [currR-1,currC]] #easier than doing 4 cases
                 for newR, newC in possibleMoves:
-                    if newR in range(rows) and newC in range(cols) and grid[newR][newC] == "1":
+                    if newR >=0 and newR < rows and newC>=0 and newC < cols and grid[newR][newC] == "1":
                         q.append((newR,newC))
                         grid[newR][newC] = "V"
         rows = len(grid)
