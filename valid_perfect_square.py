@@ -12,5 +12,4 @@ class Solution(object):
                 r = m-1
             else:
                 l = m+1
-        return False
-        
+        return False      
