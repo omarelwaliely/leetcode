@@ -16,10 +16,3 @@ class Solution(object): #hashmap
             if num in wordDict:
                 return [wordDict[num]+1, i+1]
             wordDict[target-num] = i
-
-
-                
-            
-                
-
-        
