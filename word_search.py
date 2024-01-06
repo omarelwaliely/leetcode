@@ -16,7 +16,3 @@ class Solution(object):
             for j in range(c):
                 if search(i,j,0):
                         return True
-
-
-
-        
