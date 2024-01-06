@@ -14,7 +14,4 @@ class Solution(object):
                 wordDictT[character] =1
             else:
                 wordDictT[character]+=1
-        return wordDictS == wordDictT
-
-
-        
+        return wordDictS == wordDictT   
